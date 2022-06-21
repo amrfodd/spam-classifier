@@ -9,7 +9,7 @@ app = Flask(__name__,template_folder="templates")
 # Load Model
 clf = pickle.load(open('models/MNB_model.sav', 'rb'))
 
-with open('Vectors/vectorizer.pkl', 'rb') as handle:
+with open('vectors/vectorizer.pkl', 'rb') as handle:
     tf_vec = pickle.load(handle)
 
 
