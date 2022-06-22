@@ -28,3 +28,8 @@ According to the definition of Recall and precision:
 2) Recall: How many times are we correct when the actual value is positive for a class. TP/(TP+FN)
 
 So, we care the most about precision. We want classifier with the highest precision.
+
+
+Try the project By yourself.
+
+https://smsclassify.herokuapp.com/
